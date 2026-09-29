@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80">
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0" stop-color="#ff6a00" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#ff6a00"/>
+    <stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="80" fill="#050507"/>
+<path d="M0 40H1200" stroke="#242428"/>
+<path d="M0 40H1200" stroke="url(#g)" stroke-width="3" stroke-dasharray="180 1020">
+  <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="2.8s" repeatCount="indefinite"/>
+</path>
+</svg>
